@@ -34,6 +34,7 @@ public class theater {
             case 4:
                 System.exit(0);
         }
+        scan.close();
     }
 
     public static void showSeats(int rows, String[][] arr,int[] rowS){
@@ -81,7 +82,7 @@ public class theater {
 
             }
         }
-
+        scan.close();
     }
 
     public static void welcome(){
@@ -205,6 +206,7 @@ public class theater {
             }
 
         }
+        scan.close();
     }
 
     public static void getSeat(int rows, String[][] arr,int[] rowS){
@@ -305,5 +307,6 @@ public class theater {
                 }
             }
         }
+        scan.close();
     }
 }
